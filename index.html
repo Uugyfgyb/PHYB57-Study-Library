@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="PHYB57 中文学习资料库：按主题分类的课程专题与可编辑 Notebook。">
+  <meta name="description" content="PHYB57 中文学习资料库：Tutorial 与上课讲义分开归档，提供阅读页和可编辑 Notebook。">
   <title>PHYB57 Study Library｜专题目录</title>
   <style>
     :root{color-scheme:dark;--bg:#0a121d;--surface:#12202e;--surface2:#182b3b;--line:#2e4555;--text:#eef6fa;--muted:#b4c5ce;--cyan:#67d6e8;--coral:#ff9a7e;--focus:#ffe69a}
@@ -41,18 +41,26 @@
 <body>
   <header><div class="wrap">
     <div class="brand"><span class="brand-mark" aria-hidden="true">⌁</span><span>PHYB57 STUDY LIBRARY</span></div>
-    <p class="eyebrow">中文课程资料 · 按主题分类</p>
+    <p class="eyebrow">中文课程资料 · 两大类分开存放</p>
     <h1>PHYB57 专题库</h1>
     <p class="lede">每份资料独立归档：打开网页阅读，或下载 Notebook 继续编辑和运行。</p>
   </div></header>
   <main class="wrap">
-    <div class="section-head"><h2>专题目录</h2><span class="count">1 个专题 · 持续增加</span></div>
-    <section aria-labelledby="group-algorithms">
-      <p class="group-label" id="group-algorithms">01 / 算法与复杂度</p>
-      <div class="cards"><a class="card" href="./topics/algorithm-complexity-big-o/index.html"><span class="tag">Tutorial 4 · Big-O</span><h3>算法复杂度，逐行读懂</h3><p>从 O(1) 到 O(n²)，结合代码逐行讲解、操作计数、实测曲线与自测题答案。</p><span class="open">打开专题</span></a></div>
+    <div class="section-head"><h2>分类目录</h2><span class="count">2 大类 · 4 份资料</span></div>
+    <section aria-labelledby="group-tutorials">
+      <p class="group-label" id="group-tutorials">01 / Tutorial · 习题课</p>
+      <div class="cards"><a class="card" href="./tutorials/algorithm-complexity-big-o/index.html"><span class="tag">Tutorial 4 · Big-O</span><h3>算法复杂度，逐行读懂</h3><p>从 O(1) 到 O(n²)，结合代码逐行讲解、操作计数、实测曲线与自测题答案。</p><span class="open">打开 Tutorial</span></a></div>
     </section>
-    <p class="note">计时输出来自 Notebook 已保存的运行结果，具体数值随计算机环境变化；复杂度结论请结合代码分析。</p>
+    <section aria-labelledby="group-lectures" style="margin-top:39px">
+      <p class="group-label" id="group-lectures">02 / 上课讲义 · Lectures</p>
+      <div class="cards">
+        <a class="card" href="./lectures/chapter-8-1-complexity/index.html"><span class="tag">C8-1 · Complexity</span><h3>复杂度、Big-O 与性能分析</h3><p>按原讲义顺序整理复杂度示例、计时和性能分析代码。</p><span class="open">打开讲义</span></a>
+        <a class="card" href="./lectures/chapter-9-number-representation/index.html"><span class="tag">C9 · Numbers</span><h3>进制与浮点数表示</h3><p>学习数制转换、二进制表示和浮点运算中的精度问题。</p><span class="open">打开讲义</span></a>
+        <a class="card" href="./lectures/chapter-11-file-io/index.html"><span class="tag">C11 · File I/O</span><h3>文件读写逐行人话版</h3><p>对照课件代码，逐行理解 TXT、CSV、Pickle、JSON 与 HDF5。</p><span class="open">打开讲义</span></a>
+      </div>
+    </section>
+    <p class="note">Notebook 中的计时结果和示例输出来自保存时的运行环境；实际重跑数值可能不同。数学公式排版可能需要联网。</p>
   </main>
-  <footer><div class="wrap">PHYB57 Study Library · 依知识主题归档，方便后续加入独立专题。</div></footer>
+  <footer><div class="wrap">PHYB57 Study Library · Tutorial 与上课讲义独立归档。</div></footer>
 </body>
 </html>
