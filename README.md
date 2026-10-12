@@ -6,6 +6,7 @@ PHYB57 中文学习资料库。资料分为 **Tutorial**、**上课讲义（Lect
 
 | 专题 | 在线阅读 | 可编辑文件 |
 | --- | --- | --- |
+| Tutorial 1–3：三份课件逐行人话版 | [阅读](./tutorials/tutorials-1-3/index.html) | [Notebook](./tutorials/tutorials-1-3/PHYB57_tutorial%201%20and%202%20and%203.ipynb) |
 | Tutorial 4：算法复杂度与 Big-O 逐行人话版 | [阅读](./tutorials/algorithm-complexity-big-o/index.html) | [Notebook](./tutorials/algorithm-complexity-big-o/PHYB57_Tutorial4_算法复杂度Big-O_逐行人话版.ipynb) |
 
 ## 上课讲义（Lectures）
@@ -15,6 +16,7 @@ PHYB57 中文学习资料库。资料分为 **Tutorial**、**上课讲义（Lect
 | C8-1 | 复杂度、Big-O 与性能分析 | [阅读](./lectures/chapter-8-1-complexity/index.html) | [Notebook](./lectures/chapter-8-1-complexity/PHYB57_C8-1.ipynb) |
 | C9 | 进制与浮点数表示 | [阅读](./lectures/chapter-9-number-representation/index.html) | [Notebook](./lectures/chapter-9-number-representation/PHYB57_C9.ipynb) |
 | C11 | 文件读写逐行人话版 | [阅读](./lectures/chapter-11-file-io/index.html) | [Notebook](./lectures/chapter-11-file-io/PHYB57_C11_文件读写_逐行人话版.ipynb) |
+| C12 | 科学绘图与动画逐行人话版 | [阅读](./lectures/chapter-12-plotting-animation/index.html) | [Notebook](./lectures/chapter-12-plotting-animation/PHYB57_C12_科学绘图与动画_逐行人话版.ipynb) |
 
 ## 作业（Assignments）
 
@@ -29,11 +31,13 @@ PHYB57-Study-Library/
 ├── index.html                  # 三大类入口
 ├── README.md                   # 分类索引与维护规则
 ├── tutorials/                  # Tutorial、习题课与练习资料
+│   ├── tutorials-1-3/
 │   └── algorithm-complexity-big-o/
 ├── lectures/                   # 普通上课讲义，按章节存放
 │   ├── chapter-8-1-complexity/
 │   ├── chapter-9-number-representation/
-│   └── chapter-11-file-io/
+│   ├── chapter-11-file-io/
+│   └── chapter-12-plotting-animation/
 ├── assignments/                # 作业与习题答案
 │   └── problem-set-1/
 └── topics/algorithm-complexity-big-o/  # 旧公开链接兼容入口
