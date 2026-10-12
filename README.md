@@ -13,6 +13,11 @@ PHYB57 中文学习资料库。资料分为 **Tutorial**、**上课讲义（Lect
 
 | 章节 | 内容 | 在线阅读 | 可编辑文件 |
 | --- | --- | --- | --- |
+| C1 | Python 计算器与逻辑表达式逐行人话版 | [阅读](./lectures/chapter-1-python-calculator-logic/index.html) | [Notebook](./lectures/chapter-1-python-calculator-logic/PHYB57_C1_Python%E8%AE%A1%E7%AE%97%E5%99%A8%E4%B8%8E%E9%80%BB%E8%BE%91%E8%A1%A8%E8%BE%BE%E5%BC%8F_%E9%80%90%E8%A1%8C%E4%BA%BA%E8%AF%9D%E7%89%88.ipynb) |
+| C2 | 变量与数据结构逐行人话版 | [阅读](./lectures/chapter-2-variables-data-structures/index.html) | [Notebook](./lectures/chapter-2-variables-data-structures/PHYB57_C2_%E5%8F%98%E9%87%8F%E4%B8%8E%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84_%E9%80%90%E8%A1%8C%E4%BA%BA%E8%AF%9D%E7%89%88.ipynb) |
+| C3 | 函数逐行人话版 | [阅读](./lectures/chapter-3-functions/index.html) | [Notebook](./lectures/chapter-3-functions/PHYB57_C3_%E5%87%BD%E6%95%B0_%E9%80%90%E8%A1%8C%E4%BA%BA%E8%AF%9D%E7%89%88.ipynb) |
+| C4 | 条件判断逐行人话版 | [阅读](./lectures/chapter-4-conditionals/index.html) | [Notebook](./lectures/chapter-4-conditionals/PHYB57_C4_%E6%9D%A1%E4%BB%B6%E5%88%A4%E6%96%AD_%E9%80%90%E8%A1%8C%E4%BA%BA%E8%AF%9D%E7%89%88.ipynb) |
+| C5 | 循环与推导式逐行人话版 | [阅读](./lectures/chapter-5-loops-comprehensions/index.html) | [Notebook](./lectures/chapter-5-loops-comprehensions/PHYB57_C5_%E5%BE%AA%E7%8E%AF%E4%B8%8E%E6%8E%A8%E5%AF%BC%E5%BC%8F_%E9%80%90%E8%A1%8C%E4%BA%BA%E8%AF%9D%E7%89%88.ipynb) |
 | C8-1 | 复杂度、Big-O 与性能分析 | [阅读](./lectures/chapter-8-1-complexity/index.html) | [Notebook](./lectures/chapter-8-1-complexity/PHYB57_C8-1.ipynb) |
 | C9 | 进制与浮点数表示 | [阅读](./lectures/chapter-9-number-representation/index.html) | [Notebook](./lectures/chapter-9-number-representation/PHYB57_C9.ipynb) |
 | C11 | 文件读写逐行人话版 | [阅读](./lectures/chapter-11-file-io/index.html) | [Notebook](./lectures/chapter-11-file-io/PHYB57_C11_文件读写_逐行人话版.ipynb) |
@@ -34,6 +39,11 @@ PHYB57-Study-Library/
 │   ├── tutorials-1-3/
 │   └── algorithm-complexity-big-o/
 ├── lectures/                   # 普通上课讲义，按章节存放
+│   ├── chapter-1-python-calculator-logic/
+│   ├── chapter-2-variables-data-structures/
+│   ├── chapter-3-functions/
+│   ├── chapter-4-conditionals/
+│   ├── chapter-5-loops-comprehensions/
 │   ├── chapter-8-1-complexity/
 │   ├── chapter-9-number-representation/
 │   ├── chapter-11-file-io/
